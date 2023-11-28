@@ -15,15 +15,17 @@ This app uses CLIP, can be run locally, and is super straightforward to run.
 - Python 3.x
 
 ### Setup
-1. **Clone the Repository**
+1. **Clone the Repository and install packages. I recommend doing this inside of a virtual environment**
    ```bash
    git clone https://github.com/ezishiri/Zero-Shot-Image-Classifier.git
    cd zero-shot-image-classifier
+   python3 -m venv env
+   source bin/activate/env
    pip install flask torch transformers Pillow
    
 Run the Application
  ```bash
-  python app.py
+  python3 app.py
 ```
 
 Access the web application at http://127.0.0.1:5000/.
