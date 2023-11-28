@@ -7,7 +7,7 @@ This app uses CLIP, can be run locally, and is super straightforward to run.
 ## Features
 - **Dynamic Label Input**: Users can specify their own set of class labels for image classification. Please make sure they are separated by commas. 
 - **Image Upload**: Easy upload interface for users to provide images for classification. By easy I mean bare bones.
-- **Immediate Results**: Classification results are displayed instantly on the same page after image submission. You won't be waiting long if you have a reasonable CPU on your machine  
+- **Immediate Results**: Classification results are displayed instantly on the same page after image submission. You won't be waiting long if you have a reasonable CPU on your machine. For context I am built and ran this on a 2020 M1 Macbook Pro with 16 GB of Memory. 
 
 ## Installation
 
