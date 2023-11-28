@@ -28,4 +28,6 @@ This app uses CLIP, can be run locally, and is super straightforward to run.
 Run the Application
  ```bash
   python app.py
-  Access the web application at http://127.0.0.1:5000/.
+```
+
+Access the web application at http://127.0.0.1:5000/.
