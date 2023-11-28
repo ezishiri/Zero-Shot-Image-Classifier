@@ -1,22 +1,18 @@
 # Zero Shot Image Classifier
 
 ## Introduction
-Zero Shot Image Classifier is a tiny web app I built with Flask that allows anyone to instantly classify images dynamically based on their own set of labels. 
+Zero Shot Image Classifier is a tiny web app I built with Flask and Huggingface that allows anyone to instantly classify images dynamically based on their own set of labels. 
 This app uses CLIP, can be run locally, and is super straightforward to run. 
 
 ## Features
-- **Dynamic Label Input**: Users can specify their own set of class labels for image classification. Make sure they are separated by commas
-- **Image Upload**: Easy upload interface for users to provide images for classification.
-- **Immediate Results**: Classification results are displayed instantly on the same page after image submission.
+- **Dynamic Label Input**: Users can specify their own set of class labels for image classification. Please make sure they are separated by commas. 
+- **Image Upload**: Easy upload interface for users to provide images for classification. By easy I mean bare bones.
+- **Immediate Results**: Classification results are displayed instantly on the same page after image submission. You won't be waiting long if you have a reasonable CPU on your machine  
 
 ## Installation
 
 ### Prerequisites
 - Python 3.x
-- Flask
-- Torch
-- Transformers library
-- Pillow
 
 ### Setup
 1. **Clone the Repository**
