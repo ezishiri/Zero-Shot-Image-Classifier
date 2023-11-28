@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <title>Image Classifier</title>
+</head>
+<body>
+    <h1>Upload an Image and Enter Labels for Classification</h1>
+    <form method="post" enctype="multipart/form-data">
+        <textarea name="labels" placeholder="Enter labels separated by comma">{{ labels_input }}</textarea>
+        <br>
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+    {% if result %}
+        <h2>Classification Result:</h2>
+        <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>
